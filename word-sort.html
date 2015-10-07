@@ -1,0 +1,16 @@
+<html>
+<head><title> multiplication table12</title>
+</head>
+<body>
+<script>
+var inputName = "";
+var namesArray = [];
+while ((inputName = prompt("Enter a name", "")) != "") {
+namesArray[namesArray.length] = inputName;
+}
+namesArray.sort();
+var namesList = namesArray.join("<br/>");
+document.write(namesList);
+</script>
+</body>
+</html>
